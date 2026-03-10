@@ -1,34 +1,9 @@
-# Sum_two_numbers
-To calclulate the sum of two numbers 
-#include <iostream>
-using namespace std;
+# Sum of Two Numbers
 
-int main() {
-    double a, b, sum;
+A simple C++ program that calculates the sum of two numbers.
 
-    cout << "Enter first number: ";
-    cin >> a;
+## How to compile
+g++ sum.cpp -o sum
 
-    cout << "Enter second number: ";
-    cin >> b;
-
-    sum = a + b;
-
-    cout << "Sum = " << sum << endl;
-
-    return 0;
-}
-```
-
-**Step 3: Add the file to GitHub**
-- Inside your new repo, click **"Add file"** → **"Create new file"**
-- Name it: `sum.cpp`
-- Paste the code above
-- Scroll down → Click **"Commit changes"**
-- Done ✅
-
-**Your repo structure will look like:**
-```
-sum-two-numbers-cpp/
-├── README.md
-└── sum.cpp
+## How to run
+./sum
